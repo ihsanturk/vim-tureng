@@ -1,0 +1,24 @@
+*vim-tureng.txt* Pass the current phrase through tureng-cli, see the results.
+
+Author: ihsan <http://ihsanturk.dev/>
+
+INTRODUCTION                                    *vim-tureng*
+
+vim-tureng shows the meaning of a phrase using tureng-cli.
+
+CONFIGURATION                                   *vim-tureng-configuration*
+
+g:vimtureng_invoke_map  The keystroke that invokes vim-tureng. 
+                        Default: <leader>t
+
+COMMANDS                                        *vim-tureng-commands*
+
+<leader>t               Send the current phrase -current word or visual
+                        selected- to the tureng-cli and display the results.
+
+ABOUT                                           *vim-tureng-about*
+
+http://github.com/ihsanturk/vim-tureng
+http://github.com/ihsanturk/tureng-cli
+
+vim:tw=78:et:ft=help:norl:
